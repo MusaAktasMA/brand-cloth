@@ -1,6 +1,10 @@
 @font-face {
-    font-family: 'MyCustomFont'; /* Font ismi */
+    font-family: 'MyCustomFont'; 
     src: url('font/futura\ medium\ bt.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'jane';
+    src: url('font/JaneAust.ttf') format('truetype')
 }
 
 body{
@@ -89,3 +93,55 @@ body{
 }
 
 /* CONTAINER END */
+
+/* Container Sec */
+
+.container-sec {
+    position: relative;
+    margin-top: 250px; 
+    background-color: #f8f8f8; 
+}
+
+.container-sec img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.container-sec {
+    position: relative;
+}
+
+
+.section-title{
+    position: absolute;
+    top: 226px;
+    left: 486px;
+    text-align: center; 
+    color: #795f5a;
+    font-size: 52px;
+    letter-spacing: 15px;
+    font-family: 'MyCustomFont', sans-serif;
+
+}
+
+.section-desc{
+    position: absolute;
+    top: 400px;
+    left: 410px;
+    text-align: center; 
+    color: #795f5a;
+    letter-spacing: 2px;
+    font-size: 24px;
+    
+}
+.section-desc-two{
+    position: absolute;
+    top: 500px;
+    left: 520px;
+    text-align: center; 
+    color: #862313;
+    font-size: 29px;
+    font-family: 'Jane', sans-serif;
+}
+
