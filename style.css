@@ -296,9 +296,637 @@ body {
     margin-left: 71px; 
     margin-right: 71px; 
     display: inline-block; 
-  }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 1750px){
+
+    /* container five */
+    .container-five{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 500px;
+    }
+
+    .container-five img{
+        width: 430px;
+        margin-left: 245px;
+    }
+
+    .season-five{
+        margin-right: 500px;
+        margin-top: 45px;
+        font-size: 55px;
+    }
+    .seasonP-five{
+        margin-right: 390px;
+        font-size: 15px;
+        margin-top: 370px;
+
+    }
+    .section-desc-five{
+        margin-right: 590px;
+        font-size: 15px;
+        margin-top: 460px;
+    }
+
+    /* Container four */
+
+    .container-four{
+        margin-top: 0;
+    }
+
+    .season{
+        top: 75px;
+        left: 300px;
+        font-size: 60px;
+    }
+
+    .seasonP{
+        top: 430px;
+        left: 300px;
+        font-size: 18px;
+    }
+
+    .container-four .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container-four .col-6 {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .container-four .col-6 img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Container Third */
+
+    .container-third{
+        height: 600px !important;
+        background-color: #fff;
+    }
+    .container-third img{
+        width: 460px;
+    }
+
+    .rec1{
+        top: 0;
+        left: 80px;
+    }
+
+    .pet{
+        top: 50px;
+        left: 580px;
+        font-size: 60px;
+    }
+
+    .rec2{
+        top: 0;
+        right: 80px;
+    }
+
+    /* Container Second */
+    .section-title {
+        font-size: 72px;
+        letter-spacing: 5px;
+        left: 80px;
+        top: 130px;
+    }
+    .section-desc {
+        font-size: 14px;
+        left: 90px;
+        top: 300px;
+        text-align: center;
+    }
+
+    .section-desc-two {
+        font-size: 24px;
+        left: 98px;
+        top: 360px;
+    }
+
+    /* Navbar */
+    .menu {
+        margin-left:290px;
+    }
+    .menu a {
+        margin-left: 60px;
+        font-size: 13px;
+        
+    }
+    .brand{
+        margin-top:25px;
+        margin-left: 20px;
+        width: 75px;
+        height: 15px;
+    }
+    /* Footer */
+
+    .container-six{
+        height: auto;
+        background-color: #4a3326;
+        
+    }
+    
+    .footer {
+        display: flex; 
+        justify-content: center; 
+        align-items: flex-start;
+        margin-top: 153px; 
+      }
+      
+      .footer a {
+        font-family: 'MyCustomFont', sans-serif;
+        font-size: 13px;
+        letter-spacing: 5px;
+        font-weight: lighter;
+        color: white;
+        text-decoration: none;
+        margin-top: 40px; 
+        margin-left: 31px; 
+        margin-right: 31px; 
+        display: inline-block; 
+        margin-bottom: 25px;
+
+      }
+
+}
+@media (max-width: 1500px){
+
+    /* container five */
+    .container-five{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 500px;
+    }
+
+    .container-five img{
+        width: 430px;
+        margin-left: 165px;
+    }
+
+    .season-five{
+        margin-right: 350px;
+        margin-top: 45px;
+        font-size: 40px;
+    }
+    .seasonP-five{
+        margin-right: 190px;
+        font-size: 15px;
+        margin-top: 290px;
+
+    }
+    .section-desc-five{
+        margin-right: 350px;
+        font-size: 20px;
+        margin-top: 380px;
+    }
+
+    /* Container four */
+
+    .container-four{
+        margin-top: 0;
+    }
+
+    .season{
+        top: 75px;
+        left: 250px;
+        font-size: 50px;
+    }
+
+    .seasonP{
+        top: 380px;
+        left: 255px;
+        font-size: 15px;
+    }
+
+    .container-four .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container-four .col-6 {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .container-four .col-6 img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Container Third */
+
+    .container-third{
+        height: 600px !important;
+        background-color: #fff;
+    }
+    .container-third img{
+        width: 360px;
+    }
+
+    .rec1{
+        top: 0;
+        left: 50px;
+    }
+
+    .pet{
+        top: 100px;
+        left: 490px;
+        font-size: 40px;
+    }
+
+    .rec2{
+        top: 0;
+        right: 50px;
+    }
+
+    /* Container Second */
+    .section-title {
+        font-size: 42px;
+        letter-spacing: 5px;
+        left: 150px;
+        top: 120px;
+    }
+    .section-desc {
+        font-size: 18px;
+        left: 70px;
+        top: 230px;
+        text-align: center;
+    }
+
+    .section-desc-two {
+        font-size: 18px;
+        left: 185px;
+        top: 300px;
+    }
+
+    /* Navbar */
+    .menu {
+        margin-left: 90px;
+    }
+    .menu a {
+        margin-left: 60px;
+        font-size: 13px;
+        
+    }
+    .brand{
+        margin-top:25px;
+        margin-left: 20px;
+        width: 75px;
+        height: 15px;
+    }
+    /* Footer */
+
+    .container-six{
+        height: auto;
+        background-color: #4a3326;
+        
+    }
+    
+    .footer {
+        display: flex; 
+        justify-content: center; 
+        align-items: flex-start;
+        margin-top: 153px; 
+      }
+      
+      .footer a {
+        font-family: 'MyCustomFont', sans-serif;
+        font-size: 13px;
+        letter-spacing: 5px;
+        font-weight: lighter;
+        color: white;
+        text-decoration: none;
+        margin-top: 40px; 
+        margin-left: 11px; 
+        margin-right: 11px; 
+        display: inline-block; 
+        margin-bottom: 25px;
+
+      }
+
+}
+@media (max-width: 1200px){
+
+    /* container five */
+    .container-five{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 400px;
+    }
+
+    .container-five img{
+        width: 330px;
+        margin-left: 45px;
+    }
+
+    .season-five{
+        margin-right: 200px;
+        margin-top: 45px;
+        font-size: 35px;
+    }
+    .seasonP-five{
+        margin-right: 50px;
+        font-size: 15px;
+        margin-top: 270px;
+
+    }
+    .section-desc-five{
+        margin-right: 250px;
+        font-size: 15px;
+        margin-top: 350px;
+    }
+
+    /* Container four */
+
+    .container-four{
+        margin-top: 0;
+    }
+
+    .season{
+        top: 75px;
+        left: 100px;
+        font-size: 40px;
+    }
+
+    .seasonP{
+        top: 330px;
+        left: 85px;
+        font-size: 15px;
+    }
+
+    .container-four .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container-four .col-6 {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .container-four .col-6 img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Container Third */
+
+    .container-third{
+        height: 400px !important;
+        background-color: #fff;
+    }
+    .container-third img{
+        width: 260px;
+    }
+
+    .rec1{
+        top: 0;
+        left: 30px;
+    }
+
+    .pet{
+        top: 50px;
+        left: 330px;
+        font-size: 40px;
+    }
+
+    .rec2{
+        top: 0;
+        right: 30px;
+    }
+
+    /* Container Second */
+    .section-title {
+        font-size: 42px;
+        letter-spacing: 5px;
+        left: 50px;
+        top: 80px;
+    }
+    .section-desc {
+        font-size: 14px;
+        left: 40px;
+        top: 190px;
+        text-align: start;
+    }
+
+    .section-desc-two {
+        font-size: 18px;
+        left: 35px;
+        top: 250px;
+    }
+
+    /* Navbar */
+    .menu {
+        margin-left: 90px;
+    }
+    .menu a {
+        margin-left: 60px;
+        font-size: 13px;
+        
+    }
+    .brand{
+        margin-top:25px;
+        margin-left: 20px;
+        width: 75px;
+        height: 15px;
+    }
+    /* Footer */
+
+    .container-six{
+        height: auto;
+        background-color: #4a3326;
+        
+    }
+    
+    .footer {
+        display: flex; 
+        justify-content: center; 
+        align-items: flex-start;
+        margin-top: 153px; 
+      }
+      
+      .footer a {
+        font-family: 'MyCustomFont', sans-serif;
+        font-size: 13px;
+        letter-spacing: 5px;
+        font-weight: lighter;
+        color: white;
+        text-decoration: none;
+        margin-top: 40px; 
+        margin-left: 11px; 
+        margin-right: 11px; 
+        display: inline-block; 
+        margin-bottom: 25px;
+
+      }
+
+}
+@media (max-width: 1024px){
+
+    /* container five */
+    .container-five{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 400px;
+    }
+
+    .container-five img{
+        width: 330px;
+        margin-left: 45px;
+    }
+
+    .season-five{
+        margin-right: 200px;
+        margin-top: 45px;
+        font-size: 35px;
+    }
+    .seasonP-five{
+        margin-right: 50px;
+        font-size: 15px;
+        margin-top: 270px;
+
+    }
+    .section-desc-five{
+        margin-right: 250px;
+        font-size: 15px;
+        margin-top: 350px;
+    }
+
+    /* Container four */
+
+    .container-four{
+        margin-top: 0;
+    }
+
+    .season{
+        top: 75px;
+        left: 100px;
+        font-size: 40px;
+    }
+
+    .seasonP{
+        top: 330px;
+        left: 85px;
+        font-size: 15px;
+    }
+
+    .container-four .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container-four .col-6 {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .container-four .col-6 img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Container Third */
+
+    .container-third{
+        height: 400px !important;
+        background-color: #fff;
+    }
+    .container-third img{
+        width: 260px;
+    }
+
+    .rec1{
+        top: 0;
+        left: 30px;
+    }
+
+    .pet{
+        top: 50px;
+        left: 330px;
+        font-size: 40px;
+    }
+
+    .rec2{
+        top: 0;
+        right: 30px;
+    }
+
+    /* Container Second */
+    .section-title {
+        font-size: 42px;
+        letter-spacing: 5px;
+        left: 50px;
+        top: 80px;
+    }
+    .section-desc {
+        font-size: 14px;
+        left: 40px;
+        top: 190px;
+        text-align: start;
+    }
+
+    .section-desc-two {
+        font-size: 18px;
+        left: 35px;
+        top: 250px;
+    }
+
+    /* Navbar */
+    .menu {
+        margin-left: 0;
+    }
+    .menu a {
+        margin-left: 60px;
+        font-size: 9px;
+        
+    }
+    .brand{
+        margin-top:25px;
+        margin-left: 20px;
+        width: 75px;
+        height: 15px;
+    }
+    /* Footer */
+
+    .container-six{
+        height: auto;
+        background-color: #4a3326;
+        
+    }
+    
+    .footer {
+        display: flex; 
+        justify-content: center; 
+        align-items: flex-start;
+        margin-top: 153px; 
+      }
+      
+      .footer a {
+        font-family: 'MyCustomFont', sans-serif;
+        font-size: 13px;
+        letter-spacing: 5px;
+        font-weight: lighter;
+        color: white;
+        text-decoration: none;
+        margin-top: 40px; 
+        margin-left: 11px; 
+        margin-right: 11px; 
+        display: inline-block; 
+        margin-bottom: 25px;
+
+      }
+
+}
+@media (max-width: 768px) {
 
     /* Navbar */
     .menu {
@@ -306,7 +934,11 @@ body {
     }
     .menu a {
         margin-left: 20px;
-        font-size: 12px;
+        font-size: 8px;
+    }
+    .brand{
+        width: 100px;
+        height: 18px;
     }
 
     /* Main Content */
@@ -334,15 +966,15 @@ body {
         top: 45px;
     }
     .section-desc {
-        font-size: 15px;
+        font-size: 11px;
         left: 30px;
         top: 160px;
         text-align: start;
     }
     .section-desc-two {
-        font-size: 24px;
+        font-size: 20px;
         left: 30px;
-        top: 230px;
+        top: 210px;
     }
 
     /* Container Third */
@@ -351,7 +983,7 @@ body {
         background-color: #fff;
     }
     .container-third img{
-        width: 250px;
+        width: 200px;
     }
 
     .rec1{
@@ -361,7 +993,7 @@ body {
 
     .pet{
         top: 50px;
-        left: 300px;
+        left: 250px;
         font-size: 30px;
     }
 
@@ -383,7 +1015,7 @@ body {
     .seasonP{
         top: 290px;
         left: 50px;
-        font-size: 15px;
+        font-size: 11px;
     }
 
     .container-four .row {
@@ -406,7 +1038,7 @@ body {
     .container-five{
         margin-top: 0px;
         margin-bottom: 0px;
-        height: 500px;
+        height: 300px;
     }
 
     .container-five img{
@@ -415,38 +1047,208 @@ body {
     }
 
     .season-five{
-        margin-right: 180px;
+        margin-right: 100px;
         margin-top: 45px;
         font-size: 40px;
     }
     .seasonP-five{
-        margin-right: 25px;
-        font-size: 15px;
+        margin-right: 10px;
+        font-size: 11px;
         margin-top: 300px;
 
     }
     .section-desc-five{
-        margin-right: 230px;
+        margin-right: 140px;
         font-size: 15px;
-        margin-top: 400px;
+        margin-top: 360px;
     }
 
     
 
-    /* Footer (links stack vertically) */
+    /* Footer */
+
+    .container-six{
+        height: auto;
+        background-color: #4a3326;
+        
+    }
+    
     .footer {
-        flex-direction: column;
-        margin-top: 50px;
-    }
+        display: flex; 
+        justify-content: center; 
+        align-items: flex-start;
+        margin-top: 153px; 
+      }
+      
+      .footer a {
+        font-family: 'MyCustomFont', sans-serif;
+        font-size: 13px;
+        letter-spacing: 5px;
+        font-weight: lighter;
+        color: white;
+        text-decoration: none;
+        margin-top: 40px; 
+        margin-left: 11px; 
+        margin-right: 11px; 
+        display: inline-block; 
+        margin-bottom: 25px;
 
-    .footer a {
-        margin-left: 43%;
-        margin-top: 30px;
-        font-size: 14px;
-    }
+      }
 }
+@media (max-width: 576px){
 
-/* --- Very Small Screen --- */
+    /* container five */
+    .container-five{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 270px;
+    }
+
+    .container-five img{
+        width: 200px;
+        margin-left: 45px;
+    }
+
+    .season-five{
+        margin-right: 70px;
+        margin-top: 45px;
+        font-size: 35px;
+    }
+    .seasonP-five{
+        margin-right: 8px;
+        font-size: 9px;
+        margin-top: 270px;
+
+    }
+    .section-desc-five{
+        margin-right: 110px;
+        font-size: 15px;
+        margin-top: 320px;
+    }
+
+    /* Container four */
+
+    .container-four{
+        margin-top: 0;
+    }
+
+    .season{
+        top: 75px;
+        left: 45px;
+        font-size: 30px;
+    }
+
+    .seasonP{
+        top: 260px;
+        left: 25px;
+        font-size: 9px;
+    }
+
+    .container-four .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container-four .col-6 {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .container-four .col-6 img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Container Third */
+
+    .container-third{
+        height: 200px !important;
+        background-color: #fff;
+    }
+    .container-third img{
+        width: 140px;
+    }
+
+    .rec1{
+        top: 0;
+        left: 30px;
+    }
+
+    .pet{
+        top: 50px;
+        left: 210px;
+        font-size: 20px;
+    }
+
+    .rec2{
+        top: 0;
+        right: 30px;
+    }
+
+    /* Container Second */
+    .section-title {
+        font-size: 22px;
+        letter-spacing: 5px;
+    }
+    .section-desc {
+        font-size: 10px;
+        top: 120px;
+    }
+
+    .section-desc-two {
+        font-size: 18px;
+        top: 160px;
+    }
+
+    /* Navbar */
+    .navbar-main{
+        height: auto;
+    }
+    .menu {
+        margin-left: 0;
+        
+    }
+    .menu a {
+        margin-left: 60px;
+        font-size: 8px;
+
+    }
+    .brand{
+        margin-top:25px;
+        width: 50px;
+        height: 10px;
+    }
+    /* Footer */
+
+    .container-six{
+        height: auto;
+        background-color: #4a3326;
+        
+    }
+    
+    .footer {
+        display: flex; 
+        justify-content: center; 
+        align-items: flex-start;
+        margin-top: 153px; 
+      }
+      
+      .footer a {
+        font-family: 'MyCustomFont', sans-serif;
+        font-size: 10px;
+        letter-spacing: 5px;
+        font-weight: lighter;
+        color: white;
+        text-decoration: none;
+        margin-top: 30px; 
+        margin-left: 11px; 
+        margin-right: 11px; 
+        display: inline-block; 
+        margin-bottom: 25px;
+
+      }
+}
 @media (max-width: 480px) {
 
     /* Navbar */
@@ -499,3 +1301,6 @@ body {
         font-size: 12px;
     }
 }
+
+
+
