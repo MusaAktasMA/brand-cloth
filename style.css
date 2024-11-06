@@ -221,3 +221,79 @@ body {
     width: 100%;
     height: auto;
 }
+
+/* Container Four END */
+
+/* Container Five */
+
+.container-five{
+    position: relative;
+    height: 920px;
+    background-color: #ffffff;
+}
+
+.rec-five{
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 220px;
+}
+
+.season-five{
+    position: absolute;
+    color: #6d514b;
+    font-family: 'MyCustomFont', sans-serif;
+    font-size: 47px;
+    letter-spacing: 15px;
+    right: 0;
+    margin-top: 300px;
+    margin-right: 680px;
+}
+.seasonP-five{
+    position: absolute;
+    color: #6d514b;
+    font-size: 24px;
+    letter-spacing: 2px;
+    right: 0;
+    margin-right: 400px;
+    margin-top: 600px;
+}
+
+.section-desc-five{
+    position: absolute;
+    
+    text-align: center;
+    color: #862313;
+    font-size: 29px;
+    font-family: 'Jane', sans-serif;
+    right: 0;
+    margin-right: 635px;
+    margin-top: 750px;
+}
+/* Container Five END */
+
+/* Container Six */
+
+.container-six{
+    height: 308px;
+    background-color: #4a3326;
+}
+
+.footer {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;
+    margin-top: 153px; 
+  }
+  
+  .footer a {
+    font-family: 'MyCustomFont', sans-serif;
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    margin-top: 153px; 
+    margin-left: 71px; 
+    margin-right: 71px; 
+    display: inline-block; 
+  }
