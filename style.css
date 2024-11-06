@@ -1,37 +1,38 @@
 @font-face {
-    font-family: 'MyCustomFont'; 
+    font-family: 'MyCustomFont';
     src: url('font/futura\ medium\ bt.ttf') format('truetype')
 }
+
 @font-face {
     font-family: 'jane';
     src: url('font/JaneAust.ttf') format('truetype')
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-.container{
+.container {
     max-width: 1512px !important;
 }
 
 /* NAVBAR */
 
-.navbar-main{
+.navbar-main {
     height: 69px;
     background-color: rgba(126, 92, 85, 0.8);
-    
+
 }
 
-.navOne{
+.navOne {
     display: flex;
 }
 
-.menu{
+.menu {
     margin-left: 270px;
 }
 
-.menu a{
+.menu a {
     font-family: 'MyCustomFont', sans-serif;
 
     font-size: 14px;
@@ -44,14 +45,15 @@ body{
     display: inline-block;
 }
 
-.brand{
+.brand {
     margin-top: 22px;
 }
+
 /* NAVBAR END */
 
 /* CONTAINER MAIN */
 
-.container-main img{
+.container-main img {
     position: absolute;
     top: 0;
     z-index: -2;
@@ -59,20 +61,20 @@ body{
     width: auto;
 }
 
-.main-content{
+.main-content {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.arrivals{
+.arrivals {
     font-size: 91px;
     letter-spacing: 5px;
     margin-top: 276px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.main-text{
+.main-text {
     margin-top: 115px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     letter-spacing: 3px;
@@ -81,7 +83,7 @@ body{
     text-align: center;
 }
 
-.btn-main{
+.btn-main {
     margin-top: 70px;
     width: 200px;
     height: 52px;
@@ -98,8 +100,8 @@ body{
 
 .container-sec {
     position: relative;
-    margin-top: 250px; 
-    background-color: #f8f8f8; 
+    margin-top: 250px;
+    background-color: #f8f8f8;
 }
 
 .container-sec img {
@@ -108,16 +110,17 @@ body{
     height: auto;
     margin: 0 auto;
 }
+
 .container-sec {
     position: relative;
 }
 
 
-.section-title{
+.section-title {
     position: absolute;
     top: 226px;
     left: 486px;
-    text-align: center; 
+    text-align: center;
     color: #795f5a;
     font-size: 52px;
     letter-spacing: 15px;
@@ -125,36 +128,38 @@ body{
 
 }
 
-.section-desc{
+.section-desc {
     position: absolute;
     top: 400px;
     left: 410px;
-    text-align: center; 
+    text-align: center;
     color: #795f5a;
     letter-spacing: 2px;
     font-size: 24px;
-    
+
 }
-.section-desc-two{
+
+.section-desc-two {
     position: absolute;
     top: 500px;
     left: 520px;
-    text-align: center; 
+    text-align: center;
     color: #862313;
     font-size: 29px;
     font-family: 'Jane', sans-serif;
 }
+
 /* Container Sec END */
 
 /* Container Third */
 
-.container-third{
+.container-third {
     position: relative;
-    background-color: #f8f8f8; 
+    background-color: #f8f8f8;
     height: auto;
 }
 
-.pet{
+.pet {
     position: absolute;
     left: 830px;
     top: 240px;
@@ -164,13 +169,55 @@ body{
     letter-spacing: 10px;
 }
 
-.rec2{
+.rec2 {
     position: absolute;
-   
+
     right: 272px;
 }
 
-.rec1{
+.rec1 {
     position: absolute;
     left: 272px;
+}
+
+/* Container Third END */
+
+/* Container Four */
+
+.container-four {
+    position: relative;
+    margin-top: 763px;
+    height: auto;
+    background-color: #fff;
+    margin-bottom: 48px;
+}
+
+.season {
+    position: absolute;
+    color: #6d514b;
+    font-family: 'MyCustomFont', sans-serif;
+    font-size: 47px;
+    letter-spacing: 15px;
+    top: 70px;
+    left: 300px;
+}
+
+.seasonP {
+    position: absolute;
+    color: #6d514b;
+    top: 370px;
+    left: 288px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.photo-col {
+    padding: 0;
+}
+
+
+.container-four .col-6 img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
