@@ -297,3 +297,205 @@ body {
     margin-right: 71px; 
     display: inline-block; 
   }
+
+  @media (max-width: 768px) {
+
+    /* Navbar */
+    .menu {
+        margin-left: 0;
+    }
+    .menu a {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    /* Main Content */
+    .arrivals {
+        font-size: 50px;
+        margin-top: 180px;
+    }
+
+    .main-text {
+        font-size: 18px;
+        margin-top: 80px;
+    }
+
+    .btn-main {
+        width: 180px;
+        height: 45px;
+        font-size: 12px;
+    }
+
+    /* Container Sec */
+    .section-title {
+        font-size: 36px;
+        letter-spacing: 8px;
+        left: 30px;
+        top: 45px;
+    }
+    .section-desc {
+        font-size: 15px;
+        left: 30px;
+        top: 160px;
+        text-align: start;
+    }
+    .section-desc-two {
+        font-size: 24px;
+        left: 30px;
+        top: 230px;
+    }
+
+    /* Container Third */
+    .container-third{
+        height: 400px !important;
+        background-color: #fff;
+    }
+    .container-third img{
+        width: 250px;
+    }
+
+    .rec1{
+        top: 0;
+        left: 30px;
+    }
+
+    .pet{
+        top: 50px;
+        left: 300px;
+        font-size: 30px;
+    }
+
+    .rec2{
+        top: 0;
+        right: 30px;
+    }
+
+    /* Container Four (2x2 grid to 1x2 on mobile) */
+    .container-four{
+        margin-top: 0;
+    }
+
+    .season{
+        left: 55px;
+        font-size: 35px;
+    }
+
+    .seasonP{
+        top: 290px;
+        left: 50px;
+        font-size: 15px;
+    }
+
+    .container-four .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container-four .col-6 {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .container-four .col-6 img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Container Five */
+    .container-five{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 500px;
+    }
+
+    .container-five img{
+        width: 250px;
+        margin-left: 45px;
+    }
+
+    .season-five{
+        margin-right: 180px;
+        margin-top: 45px;
+        font-size: 40px;
+    }
+    .seasonP-five{
+        margin-right: 25px;
+        font-size: 15px;
+        margin-top: 300px;
+
+    }
+    .section-desc-five{
+        margin-right: 230px;
+        font-size: 15px;
+        margin-top: 400px;
+    }
+
+    
+
+    /* Footer (links stack vertically) */
+    .footer {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .footer a {
+        margin-left: 43%;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+}
+
+/* --- Very Small Screen --- */
+@media (max-width: 480px) {
+
+    /* Navbar */
+    .menu a {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    /* Main Content */
+    .arrivals {
+        font-size: 40px;
+        margin-top: 120px;
+    }
+
+    .main-text {
+        font-size: 16px;
+    }
+
+    .btn-main {
+        width: 150px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    /* Container Sec */
+    .section-title {
+        font-size: 28px;
+        letter-spacing: 5px;
+    }
+    .section-desc {
+        font-size: 18px;
+    }
+
+    .section-desc-two {
+        font-size: 20px;
+    }
+
+    /* Container Four (1x2 grid) */
+    .container-four .col-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        margin-top: 30px;
+    }
+
+    .footer a {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}
