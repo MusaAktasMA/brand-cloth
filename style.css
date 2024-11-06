@@ -104,7 +104,7 @@ body{
 
 .container-sec img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
 }
@@ -144,4 +144,33 @@ body{
     font-size: 29px;
     font-family: 'Jane', sans-serif;
 }
+/* Container Sec END */
 
+/* Container Third */
+
+.container-third{
+    position: relative;
+    background-color: #f8f8f8; 
+    height: auto;
+}
+
+.pet{
+    position: absolute;
+    left: 830px;
+    top: 240px;
+    color: #6d514b;
+    font-family: 'MyCustomFont', sans-serif;
+    font-size: 47px;
+    letter-spacing: 10px;
+}
+
+.rec2{
+    position: absolute;
+   
+    right: 272px;
+}
+
+.rec1{
+    position: absolute;
+    left: 272px;
+}
