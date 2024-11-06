@@ -1202,22 +1202,34 @@ body {
     }
 
     /* Navbar */
-    .navbar-main{
+    .navbar-main {
         height: auto;
+        padding-top: 20px; /* Biraz üstten boşluk ekleyebiliriz */
     }
-    .menu {
-        margin-left: 0;
-        
-    }
-    .menu a {
-        margin-left: 60px;
-        font-size: 8px;
 
+    .navOne {
+        display: block;
+        text-align: center; /* Tüm içerikleri ortalayalım */
     }
-    .brand{
-        margin-top:25px;
-        width: 50px;
-        height: 10px;
+
+    .brand {
+        margin: 0 auto;
+        width: 100px; /* Logoyu biraz daha büyütebilirsiniz */
+        height: auto;
+        display: block;
+        margin-bottom: 10px; /* Logoyu diğer menüden ayırmak için */
+    }
+
+    .menu {
+        display: block; /* Menü elemanlarını alt alta sıralamak için */
+        margin-top: 20px; /* Menüyü biraz yukarıdan başlatıyoruz */
+    }
+
+    .menu a {
+        display: block; /* Her linki blok seviyesinde gösteriyoruz */
+        margin: 10px 0; /* Linkler arasına boşluk ekliyoruz */
+        font-size: 12px; /* Yazı boyutunu biraz daha artırabiliriz */
+        color: #fff; /* Renk ayarı, isterseniz değiştirebilirsiniz */
     }
     /* Footer */
 
