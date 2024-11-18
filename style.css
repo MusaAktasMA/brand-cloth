@@ -58,7 +58,9 @@ body {
     top: 0;
     z-index: -2;
     height: 1079px;
-    width: auto;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .main-content {
@@ -1261,11 +1263,11 @@ body {
 
       }
 }
-@media (max-width: 480px) {
+@media (max-width: 375px) {
 
     /* Navbar */
     .menu a {
-        margin-left: 10px;
+        margin-left: 0px;
         font-size: 10px;
     }
 
@@ -1287,22 +1289,84 @@ body {
 
     /* Container Sec */
     .section-title {
-        font-size: 28px;
+        font-size: 18px;
         letter-spacing: 5px;
+        left: 100px;
     }
     .section-desc {
-        font-size: 18px;
+        font-size: 10px;
+        top: 95px;
+        text-align: center;
+        font-weight: bolder;
     }
 
     .section-desc-two {
-        font-size: 20px;
+        font-size: 10px;
+        top: 130px;
+        left: 130px;
     }
 
-    /* Container Four (1x2 grid) */
+    /* Container Third */
+
+    .container-third{
+        height: 200px !important;
+        background-color: #fff;
+    }
+    .container-third img{
+        width: 100px;
+    }
+
+    .rec1{
+        top: 0;
+        left: 30px;
+    }
+
+    .pet{
+        top: 40px;
+        left: 140px;
+        font-size: 15px;
+    }
+
+    .rec2{
+        top: 0;
+        right: 30px;
+    }
+
+    /* Container four */
+
+    .container-four{
+        margin-top: 0;
+    }
+
+    .season{
+        top: 60px;
+        left: 45px;
+        font-size: 25px;
+    }
+
+    .seasonP{
+        top: 240px;
+        left: 60px;
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .container-four .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
     .container-four .col-6 {
-        width: 100%;
+        width: 48%;
         margin-bottom: 20px;
     }
+
+    .container-four .col-6 img {
+        width: 100%;
+        height: auto;
+    }
+
 
     .footer {
         margin-top: 30px;
@@ -1312,6 +1376,63 @@ body {
         margin-top: 10px;
         font-size: 12px;
     }
+    /* container five */
+    .container-five{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 270px;
+    }
+
+    .container-five img{
+        width: 100px;
+        margin-left: 45px;
+    }
+
+    .season-five{
+        margin-right: 50px;
+        margin-top: 55px;
+        font-size: 20px;
+    }
+    .seasonP-five{
+        margin-right: 50px;
+        font-size: 9px;
+        margin-top: 195px;
+        text-align: center;
+
+    }
+    .section-desc-five{
+        margin-right: 110px;
+        font-size: 13px;
+        margin-top: 250px;
+        
+    }
+     /* Footer */
+
+     .container-six{
+        height: auto;
+        background-color: #4a3326;
+        
+    }
+    
+    .footer {
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        flex-direction: column;
+        
+      }
+      
+      .footer a {
+        font-family: 'MyCustomFont', sans-serif;
+        font-size: 10px;
+        letter-spacing: 5px;
+        font-weight: lighter;
+        color: white;
+        text-decoration: none;
+        margin-top: 30px;
+        margin-bottom: 25px;
+
+      }
 }
 
 
